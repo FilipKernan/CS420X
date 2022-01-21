@@ -1,3 +1,8 @@
 To create these effects, I started with an example given in the book of shaders on how to create a gear using radial coordinates. This used the length function to create the gear size and atan to create the radial coordinate. Smoothstep, and sin were used to create the teeth of the gear. The size of the gear was tied to the amount of time that has transpired in the section of animation. The modulation of the gear teeth were created by incorporating the cosine of time times pi to the creation of the gear teeth. From there both rotation and feedback were used to create the additional animation features. Additionally, to create the smooth transitions, I utilized a combination of mix, fract, and mod to make the effects fade in and out. 
 
 I wanted to create an animation using only the gear that was presented in the book of shaders. I wanted to create the effect of a gear organically forming and then rotating. From there I found that mix of the organic movement, and solid rotating gear to be aesthetically pleasing. I then faded in some feedback and tried to create the effect of the undulating gear coming toward the screen and fading away, while the rotating gears created some feedback and then followed the path of the undulating gears. 
+
+
+Feed Back from Eli:
+
+I like how it started and ended with a completely black screen. Very very smooth transitions, it was clear that there were explicit durations chosen for each section. Good color palette and animation within each section
