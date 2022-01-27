@@ -1,0 +1,9 @@
+The aesthetic that I was going for in this project was progressively degrading the quality of the incoming video feed. To start, I created a simple greyscale version of the texture, in order to give it an older feel. Second, I created a blur effect across the image to make the image quality look truly terrible. Thirdly I created an overlay of some fractional brownian motion to create the effect of the camera sensors not working correctly as if there is some moving film or noise in the sensor itself. 
+    To accomplish the various I created conditionals within the shader to add the effects to the image. To accomplish the greyscale, I simply took the dot product of the texture color and a grey color vector. In order to create the blur effect, I simply iterated over a square centered on the pixel and took the average of that to produce the blur. The square had a side length of 13 pixels. In order to produce the warping effect from the fractional brownian motion, I used 3 layers of motion, with some scaling and time interaction. Additionally, I passed in the lacunarity and gain from the user to the function creating the motion.
+
+Feedback from Eli:
+Canvas is a square for me, so the aspect ratio of my camera is off. My head looks very skinny
+The effects of greyscale, blur, and warping are all great. Its interesting to bring the lacunarity all the way down to see the underlying fractals. Also, interesting things happen to pixel colors when the gain is maxed
+
+Response
+Besides the aspect ratio issue, I am pretty happy with the feedback. I honestly did not take into account the ranges for the inputs all that much. While I do think that the effects are interesting, I am not sure how much it fits the aesthetic. I think that it starts to look a bit too busy when values are set to the current max and mins for the warping values. In the future I might spend more time tuning the input values, as opposed to some of the hard coded noise values. 
