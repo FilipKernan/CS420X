@@ -12,3 +12,6 @@ Assignment #3: [project](https://filipkernan.github.io/src/html/cs420x/project3.
 
 
 Assignment #4: [project](https://filipkernan.github.io/src/html/cs420x/project4.html), [code](https://github.com/FilipKernan/filipkernan.github.io/blob/master/src/html/cs420x/project4.html), [explanation](https://github.com/FilipKernan/CS420X/blob/main/Assignment4Explanation.md)
+
+
+Final Project: [project](https://filipkernan.github.io/src/html/cs420x/finalProject.html), [video](https://youtu.be/NDOI6H5JjZ4), [code](https://github.com/FilipKernan/filipkernan.github.io/blob/master/src/html/cs420x/finalProject.html), [explanation](https://github.com/FilipKernan/CS420X/blob/main/FinalProjectExplanation.md)   
